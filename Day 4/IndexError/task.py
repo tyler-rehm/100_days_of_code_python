@@ -1,3 +1,5 @@
+import random
+
 states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", "Maryland",
                      "South Carolina", "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island",
                      "Vermont", "Kentucky", "Tennessee", "Ohio", "Louisiana", "Indiana", "Mississippi", "Illinois",
@@ -6,4 +8,14 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
-print(states_of_america)
+number_of_states = len(states_of_america)
+
+min = 0
+max = number_of_states - 1
+
+rand = random.randint(min, max)
+
+print(states_of_america[rand])
+
+fruits = ["", "", ""]
+vegetables = ["", "", ""]
